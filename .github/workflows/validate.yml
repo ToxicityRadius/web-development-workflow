@@ -22,3 +22,5 @@ jobs:
           python-version: '3.12'
       - name: Validate bundled resources
         run: python scripts/validate.py
+      - name: Exercise availability and integrity failures
+        run: python -m unittest discover -s tests -v

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-27",
+  "bundles": [
+    {
+      "skill": "workflow-interface-design",
+      "repository": "anthropics/skills",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_license": "Apache-2.0",
+      "adapter_license": "MIT",
+      "files": [
+        {
+          "local_path": "skills/workflow-interface-design/references/upstream.md",
+          "upstream_path": "skills/frontend-design/SKILL.md",
+          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md",
+          "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+        },
+        {
+          "local_path": "skills/workflow-interface-design/LICENSE.txt",
+          "upstream_path": "skills/frontend-design/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/LICENSE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        }
+      ]
+    },
+    {
+      "skill": "workflow-interface-review",
+      "repository": "vercel-labs/web-interface-guidelines",
+      "commit": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "source_license": "MIT",
+      "adapter_license": "MIT",
+      "files": [
+        {
+          "local_path": "skills/workflow-interface-review/references/upstream.md",
+          "upstream_path": "command.md",
+          "url": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/434b7f91364665f2f733b310ec54809bf8f37937/command.md",
+          "sha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234"
+        },
+        {
+          "local_path": "skills/workflow-interface-review/LICENSE.txt",
+          "upstream_path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/434b7f91364665f2f733b310ec54809bf8f37937/LICENSE",
+          "sha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2"
+        }
+      ]
+    },
+    {
+      "skill": "workflow-mobile-web",
+      "repository": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source_license": "MIT",
+      "adapter_license": "MIT",
+      "files": [
+        {
+          "local_path": "skills/workflow-mobile-web/references/upstream.md",
+          "upstream_path": "skills/mobile-native/SKILL.md",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/mobile-native/SKILL.md",
+          "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55"
+        },
+        {
+          "local_path": "skills/workflow-mobile-web/LICENSE.txt",
+          "upstream_path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE",
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        }
+      ]
+    }
+  ]
+}

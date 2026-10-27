@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {"name": "workflow-interface-design", "directories": ["workflow-interface-design"], "bundled": true, "resources": ["references/upstream.md", "LICENSE.txt"], "runtime": "Instruction-only; rendered verification uses the project's tools"},
+    {"name": "workflow-interface-review", "directories": ["workflow-interface-review"], "bundled": true, "resources": ["references/upstream.md", "LICENSE.txt"], "runtime": "Instruction-only; interaction checks require a usable browser"},
+    {"name": "workflow-mobile-web", "directories": ["workflow-mobile-web"], "bundled": true, "resources": ["references/upstream.md", "LICENSE.txt"], "runtime": "Instruction-only; device-specific claims require real-device evidence"},
+    {"name": "impeccable", "directories": ["impeccable"], "bundled": false, "resources": [], "runtime": "Inspect installed version, supporting references, platform launcher and native engine; do not trigger a download"},
+    {"name": "emil-design-eng", "directories": ["emil-design-eng"], "bundled": false, "resources": [], "runtime": "Inspect selected entrypoint and required references"},
+    {"name": "ui-ux-pro-max", "directories": ["ui-ux-pro-max"], "bundled": false, "resources": [], "runtime": "Inspect root resolution, Python scripts and data before using search"},
+    {"name": "web-design-guidelines", "directories": ["web-design-guidelines"], "bundled": false, "resources": [], "runtime": "Check source retrieval capability and report the source/date used"},
+    {"name": "mobile-native", "directories": ["mobile-native"], "bundled": false, "resources": [], "runtime": "Inspect relevant references; actual-phone verification remains separate"},
+    {"name": "animate", "directories": ["animate"], "bundled": false, "resources": [], "runtime": "Use existing project motion dependencies only"},
+    {"name": "review-animations", "directories": ["review-animations"], "bundled": false, "resources": [], "runtime": "Read-only critique; rendered motion needs a browser"},
+    {"name": "animation-performance", "directories": ["animation-performance"], "bundled": false, "resources": [], "runtime": "Profiling and runtime evidence required for performance conclusions"},
+    {"name": "gpt-taste", "directories": ["gpt-tasteskill", "gpt-taste"], "bundled": false, "resources": [], "runtime": "Explicit compatible cinematic brief required; inspect prescribed tools"},
+    {"name": "vercel-react-best-practices", "directories": ["react-best-practices", "vercel-react-best-practices"], "bundled": false, "resources": ["AGENTS.md", "rules"], "runtime": "Actual React/Next.js stack and compatible API versions"},
+    {"name": "playwright", "directories": ["playwright"], "bundled": false, "resources": [], "runtime": "Usable existing browser/project setup; a package runner or wrapper is insufficient"},
+    {"name": "playwright-interactive", "directories": ["playwright-interactive"], "bundled": false, "resources": [], "runtime": "Supported persistent JavaScript/browser environment; do not auto-install"},
+    {"name": "context7-mcp", "directories": ["context7-mcp"], "bundled": false, "resources": [], "runtime": "Available Context7 tools and a successful relevant query"},
+    {"name": "api-design", "directories": ["api-design"], "bundled": false, "resources": [], "runtime": "Actual API contract and project runtime"},
+    {"name": "backend-patterns", "directories": ["backend-patterns"], "bundled": false, "resources": [], "runtime": "Relevant backend stack and trusted validation paths"},
+    {"name": "security-review", "directories": ["security-review"], "bundled": false, "resources": [], "runtime": "Actual affected trust boundary; no production mutation implied"},
+    {"name": "supabase", "directories": ["supabase"], "bundled": false, "resources": [], "runtime": "Prefer available product plugin; verify intended environment and tools"},
+    {"name": "supabase-postgres-best-practices", "directories": ["supabase-postgres-best-practices"], "bundled": false, "resources": [], "runtime": "Database work only; inspect applicable rule files"}
+  ]
+}

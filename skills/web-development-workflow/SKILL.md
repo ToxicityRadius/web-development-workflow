@@ -47,7 +47,11 @@ Optional [starter templates](assets/templates/README.md) are bundled in `assets/
 
 ## Choose design and tools deliberately
 
-Use one primary design workflow that fits the task and the existing DESIGN.md. Add a specialist only for a concrete gap. Impeccable can guide general UI refinement; motion skills can handle a specified interaction. Taste is appropriate when its cinematic composition is wanted and compatible with the brief. Conflicting skill aesthetics do not override approved project decisions.
+For substantial work, read the [specialist routing guide](references/skill-routing.md) before choosing specialists. Use its stage matrix to select only what this task needs. For a small isolated fix, use the existing project patterns and relevant checks directly; do not activate the full design stack.
+
+Choose one primary design workflow: an explicit user choice first, then the project's established workflow, then a suitable existing available specialist, then the bundled `workflow-interface-design` adapter. Use `workflow-interface-review` for a separate review pass and `workflow-mobile-web` for relevant mobile behavior. Optional motion, framework, backend and security specialists run only when their boundary changes. Taste requires a requested compatible cinematic direction. Resolve advice against the actual brief and approved DESIGN.md; do not combine competing aesthetics or treat source examples as project facts.
+
+Check the current session's skill catalogue and each selected skill's required resources/tools. The optional read-only [availability helper](scripts/check_skills.py) reports known files on disk; it does not establish activation, tool authentication or a working runtime. Report missing selected skills and use the guide's fallback. Keep the current installation: do not install, upgrade, execute a downloader or rewrite specialist skills to fill a gap. If a required check remains unavailable, record Blocked or Not run with a concrete manual alternative and owner.
 
 A new or ambiguous visual direction deserves a bounded prototype or a few genuinely different options before site-wide implementation. Routine refinements within an approved direction do not need a new approval step. Inspect rendered results and give the user a concrete visual checkpoint when a consequential design choice needs their decision.
 

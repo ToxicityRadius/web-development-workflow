@@ -1,0 +1,6 @@
+interface:
+  display_name: "Workflow Interface Design"
+  short_description: "Design intentional web UI within the approved brief"
+  default_prompt: "Use $workflow-interface-design for the relevant part of this web project and report verification limits."
+policy:
+  allow_implicit_invocation: true

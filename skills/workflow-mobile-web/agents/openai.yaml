@@ -1,0 +1,6 @@
+interface:
+  display_name: "Workflow Mobile Web"
+  short_description: "Fix mobile web behavior and verify on actual devices"
+  default_prompt: "Use $workflow-mobile-web for the relevant part of this web project and report verification limits."
+policy:
+  allow_implicit_invocation: true

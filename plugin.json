@@ -1,19 +1,19 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "web-development-workflow",
-  "version": "1.0.0",
-  "description": "A practical web development workflow with a 16-page planning guide, editable templates, rendered verification, and explicit production approval.",
+  "version": "1.1.0",
+  "description": "A web development workflow with a planning guide, three licensed interface adapters, selective specialist routing, and evidence-based release preparation.",
   "author": {"name": "ToxicityRadius", "url": "https://github.com/ToxicityRadius"},
   "homepage": "https://github.com/ToxicityRadius/web-development-workflow",
   "repository": "https://github.com/ToxicityRadius/web-development-workflow",
-  "license": "MIT",
+  "license": "MIT AND Apache-2.0",
   "keywords": ["codex", "agent-skills", "web-development", "planning", "verification"],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Web Development Workflow",
         "shortDescription": "Plan, build, verify, and prepare polished web releases",
-        "longDescription": "Use a bundled planning guide and editable templates to clarify requirements, preserve approved design, build complete user journeys, verify the actual result, and prepare a reviewable release.",
+        "longDescription": "Use a bundled planning guide, editable templates and three licensed interface adapters. Select specialists by task, check availability without installing tools, preserve approved design, verify actual user journeys, and prepare a reviewable release.",
         "developerName": "ToxicityRadius",
         "category": "Productivity",
         "defaultPrompt": ["Use $web-development-workflow to continue this project with the bundled planning guide and prepare a verified release for my approval."]

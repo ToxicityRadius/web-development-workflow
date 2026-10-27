@@ -1,0 +1,6 @@
+interface:
+  display_name: "Workflow Interface Review"
+  short_description: "Review web UI with evidence and contextual guidelines"
+  default_prompt: "Use $workflow-interface-review for the relevant part of this web project and report verification limits."
+policy:
+  allow_implicit_invocation: true
