@@ -1,0 +1,6 @@
+interface:
+  display_name: "Web Development Workflow"
+  short_description: "Plan, build, verify, and prepare polished web releases"
+  default_prompt: "Use $web-development-workflow and my bundled planning guide to continue this web project, verify the result, and prepare it for my production publishing approval."
+policy:
+  allow_implicit_invocation: true

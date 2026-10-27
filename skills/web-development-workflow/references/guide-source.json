@@ -1,0 +1,31 @@
+{
+  "title": "Website & Web App Planning Toolkit",
+  "edition_date": "2026-10-18",
+  "pdf": "planning-guide.pdf",
+  "searchable_text": "planning-guide.md",
+  "source_filename": "website-web-app-planning-toolkit.pdf",
+  "page_count": 16,
+  "sha256": "aa3ac21cb26b109fbfb4c2bde98cf653d8d96980cd033c6ed06831a75f1bcc4d",
+  "page_text_sha256": [
+    "5b304d1820cf4de1b6f220f77798c779b0db8805637b91778fef8d4a53c77da9",
+    "52507366ac1a4c7a47410e04544f56190557a4ce33954a114f4c4ad4586476be",
+    "ebb48f23641b47c7b85f6ebca2b8e0c579460e828606bd77c4c91a1c89cd8d5d",
+    "df7fd9d82712833b374681e71c48e74fab00d7ac1fa2044f72f4f3c5328452af",
+    "a6b264339b2b48c897cce8fececfa979544915b20d4af09ebcbc0242939251ac",
+    "2cd92863d01d4e57dc9500868902e2e9630a46242858173c58497243a2078b82",
+    "8e3112ff63b9673ced5e06cdd75a71093365d15909e5e86539bd514d78209549",
+    "7d3768d024b6cba3a81e3fdcd12db6d6f796de68062338b048bd5251ebca8105",
+    "35510f335037485a47914c2478c2250bfdf1a9cd459666776886b10275e9b90a",
+    "a336ae643b860ef784702acd2aabe215741ccaf6f859e851146b8aca806297e4",
+    "63f793686e8a392cf1b355c1862f038483024641ab8f72cc26ddda2d32ffe4d2",
+    "1af97fbd2477687013913fc503170e43e1cba114ddc2b99831f9e40a5df626d6",
+    "9d82d9fad8a2bab47a90f93fa69b6776798653623152c921661c0bbfba2bf4be",
+    "a4fc1876ef35fe000e272c861b590662fa38f89f6dfa276cd87b7934417465c8",
+    "0d90b40e9fdc4539d73f42ad0f89f007601b1f28f171e16de0610439f706b87c",
+    "9aaaa331fb44daa9cf72e6aae37b1ed07f245456d5f71d3c81662aebd7722e8f"
+  ],
+  "extraction": "pypdf text per PDF page; Unicode NFKC and outer whitespace normalization",
+  "scope": "Planning toolkit only",
+  "original_source_sha256": "9e9c423145c71ff1b9b04532567d0714cb87f290e4dcbff1966af011b0024e0a",
+  "distribution_transform": "Public copy: document metadata replaced; all 16 pages retain identical normalized extracted text"
+}
